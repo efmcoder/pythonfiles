@@ -24,4 +24,6 @@ mult_two_add_three(5)
 def greet(store, special):
     print("Welcome to " + store + ". " "\nOur special is " + special + ". " "\nHave fun shopping")
 
+
 greet("Shaws", "tomatoes")
+greet(store="Stop n Shop", special="avocadoes")
