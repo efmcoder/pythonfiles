@@ -15,8 +15,13 @@ print("This will not print because it's not indented")
 
 loading_screen()
 
-def mult_two_add_three():
-    number = 5
+def mult_two_add_three(number):
+    #number = 5
     print(number*2 + 3)
 
-mult_two_add_three();
+mult_two_add_three(5)
+
+def greet(store, special):
+    print("Welcome to " + store + ". " "\nOur special is " + special + ". " "\nHave fun shopping")
+
+greet("Shaws", "tomatoes")
