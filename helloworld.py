@@ -26,4 +26,4 @@ def greet(store, special):
 
 
 greet("Shaws", "tomatoes")
-greet(store="Stop n Shop", special="avocadoes")
+greet(store="Stop n Shop", special="avocadoes") #keyword arguments
