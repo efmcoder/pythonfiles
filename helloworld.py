@@ -14,3 +14,9 @@ def loading_screen():
 print("This will not print because it's not indented")
 
 loading_screen()
+
+def mult_two_add_three():
+    number = 5
+    print(number*2 + 3)
+
+mult_two_add_three();
