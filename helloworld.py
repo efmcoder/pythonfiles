@@ -98,3 +98,9 @@ lyrics = repeat_stuff("Row ", 3) + "Your Boat. "
 song = repeat_stuff(lyrics)
 
 print(song)
+
+
+def divide(num):
+	return num/2
+result = divide(4)
+print (result)
