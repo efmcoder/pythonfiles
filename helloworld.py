@@ -104,3 +104,47 @@ def divide(num):
 	return num/2
 result = divide(4)
 print (result)
+
+def calculate(yob, cy):
+	age = cy - yob
+	return age
+Mika_age = calculate(1972, 2019)
+print(Mika_age)
+
+def fahrenheit_to_celcius(temp):
+	return(temp - 32)*5/9
+print(fahrenheit_to_celcius(82))
+
+
+def get_force(mass, acceleration):
+	return mass * acceleration
+print (get_force(10,50))
+
+#def aveg(num1,num2):
+#    return average(num1 + num2)/2
+#print aveg(4,2)
+
+
+# Write your tenth_power function here:
+#print("Raise number to the 10th power)
+def tenth_power(num):
+  return num**10
+
+# Uncomment these function calls to test your tenth_power function:
+print(tenth_power(1))
+# 1 to the 10th power is 1
+print(tenth_power(0))
+# 0 to the 10th power is 0
+print(tenth_power(2))
+# 2 to the 10th power is 1024
+
+# Write your introduction function here:
+def introduction(first_name, last_name):
+  return last_name + ", " + first_name + " " + last_name
+
+# Uncomment these function calls to test your introduction function:
+print(introduction("James", "Bond"))
+# should print Bond, James Bond
+print(introduction("Maya", "Angelou"))
+# should print Angelou, Maya Angelou
+

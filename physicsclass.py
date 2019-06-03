@@ -70,3 +70,11 @@ def get_work(mass, acceleration,distance):
 #train_work = get_work(1000, 40, 1)
 #print("The GE train does " + str(train_work) + " Joules of work over " + str(train_distance) + " meters.")
 print("The GE train does " + str(20000) + " Joules of work over " + str(100) + " meters.")
+
+def average(num1,num2):
+    return average(num1 + num2)/2
+
+
+def tenth_power(num):
+  return tenth_power(num ** 10)
+print(tenth_power(1**10))
