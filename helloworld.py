@@ -148,3 +148,8 @@ print(introduction("James", "Bond"))
 print(introduction("Maya", "Angelou"))
 # should print Angelou, Maya Angelou
 
+def square_root(num):
+	return num**0.5
+print(square_root(16))
+
+
