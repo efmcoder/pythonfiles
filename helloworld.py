@@ -152,4 +152,44 @@ def square_root(num):
 	return num**0.5
 print(square_root(16))
 
+def tip(total, percentage):
+	return total * percentage/100
+print (tip(10,25))
+
+def win_percentage(wins, losses):
+	return (wins / (wins + losses))*100
+print(win_percentage(5,5))
+
+
+def first_three_multiples(num):
+  print(num*1, num*2, num*3)
+  return (num*3)
+first_three_multiples(10)
+first_three_multiples(0)
+
+
+#After multiplying age by 7, concatenate the result with correct string using +. 
+#Don’t forget the comma after the name!
+
+def dog_years(name, age):
+	return name+", you are "+str(age*7)+" years old in dog years"
+print(dog_years("Lola", 16))
+
+#The function should return the remainder of twice num1 divided by half of num2.
+#Watch for ()- see second solution below instead. It's the correct one
+def remainder(num1, num2):
+	return (num1*2%num2/2)
+print(remainder(15,14))
+
+#The function should return the remainder of twice num1 divided by half of num2.
+def remainders(num1, num2):
+  return (2*num1)%(num2/2)
+print(remainders(15,14))
+
+
+def lots_of_math(a,b,c,d):
+
+	
+
+
 
